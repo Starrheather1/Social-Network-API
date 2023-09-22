@@ -1,22 +1,25 @@
 const { User } = require('../models');
 
 module.exports = {
-  async getUsers(req, res) {
+  async getThought(req, res) {
 
   },
-  async getSingleUser(req, res) {
+  async getSingleThought(req, res) {
 
   },
-  async createUser(req, res) {
+  async createThought(req, res) {
 
   },
-  async deleteUser(req, res) {
+  async updateThought(req, res) {
 
   },
-  async addFriend(req, res) {
+  async deleteThought(req, res) {
 
   },
-  async deleteFriend(req, res) {
+  async addReaction(req, res) {
+
+  },
+  async deleteReaction(req, res) {
 
   }
 };

@@ -10,6 +10,9 @@ module.exports = {
   async createUser(req, res) {
 
   },
+  async updateUser(req, res) {
+
+  },
   async deleteUser(req, res) {
 
   },
